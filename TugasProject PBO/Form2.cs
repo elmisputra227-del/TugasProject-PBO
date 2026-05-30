@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace TugasProject_PBO
 {
@@ -17,27 +19,17 @@ namespace TugasProject_PBO
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Gambar diklik!");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
+            label1.Text = textBox1.Text;
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            label1.Text = "Semangat Belajar C#!";
         }
     }
 }
