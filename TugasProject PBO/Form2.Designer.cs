@@ -45,9 +45,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-2, 77);
+            pictureBox1.Location = new Point(0, 73);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(801, 376);
+            pictureBox1.Size = new Size(801, 396);
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -57,7 +57,7 @@
             // 
             textBox1.BackColor = Color.FromArgb(0, 64, 64);
             textBox1.ForeColor = Color.White;
-            textBox1.Location = new Point(596, 285);
+            textBox1.Location = new Point(596, 290);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(132, 27);
             textBox1.TabIndex = 0;
@@ -76,13 +76,14 @@
             panel1.Controls.Add(label1);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
-            panel1.Location = new Point(-2, 0);
+            panel1.Location = new Point(-1, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(801, 78);
             panel1.TabIndex = 2;
             // 
             // button1
             // 
+            button1.Font = new Font("Winter Draw", 8.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Location = new Point(14, 25);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
@@ -92,6 +93,7 @@
             // 
             // button2
             // 
+            button2.Font = new Font("Winter Draw", 8.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.Location = new Point(645, 25);
             button2.Name = "button2";
             button2.Size = new Size(145, 29);
