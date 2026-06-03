@@ -1,4 +1,6 @@
-﻿namespace TugasProject_PBO.Views
+﻿using System.Runtime.CompilerServices;
+
+namespace TugasProject_PBO.Views
 {
     partial class LoginSIMIHAN
     {
@@ -20,6 +22,7 @@
             base.Dispose(disposing);
         }
 
+        
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -179,5 +182,7 @@
         private Label label4;
         private Label label5;
         private LinkLabel linkLabel1;
+        
+        
     }
 }
