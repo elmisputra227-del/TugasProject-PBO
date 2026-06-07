@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Text;
-using System.Windows.Forms;
+using TugasProjectPBO.Views;
 
-namespace TugasProject_PBO.Views
+namespace TugasProjectPBO.Views
 {
     public partial class LoginSIMIHAN : Form
     {
@@ -31,6 +31,11 @@ namespace TugasProject_PBO.Views
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
